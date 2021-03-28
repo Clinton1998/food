@@ -40,6 +40,7 @@ a {
     height: 100%;
     background-color: #fff;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 4px;
 }
 
 .paragraph {
@@ -66,8 +67,15 @@ a {
 }
 
 .title-item {
-    border-bottom-style: solid;
+    /* border-bottom-style: solid;
     border-width: 2px;
-    border-color: #E9C46A;
+    border-color: #E9C46A; */
+    border-bottom: solid 2px #E9C46A;
     padding-bottom: 1em;
+}
+
+.position {
+    background-color: #E9C46A;
+    padding: 10px;
+    border-radius: 4px;
 }
